@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDelivery", "FoodDelivery\FoodDelivery.csproj", "{2D1A8881-CABE-452C-AEAA-9B93E08BC198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodDelivery", "FoodDelivery\FoodDelivery.csproj", "{2D1A8881-CABE-452C-AEAA-9B93E08BC198}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A4332CE9-588E-463B-B5C3-9A552AB88AC3} = {A4332CE9-588E-463B-B5C3-9A552AB88AC3}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A4332CE9-588E-463B-B5C3-9A552AB88AC3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DBA30E3D-F483-4DDA-99F8-D9713643E53E} = {DBA30E3D-F483-4DDA-99F8-D9713643E53E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationCore", "ApplicationCore\ApplicationCore.csproj", "{DBA30E3D-F483-4DDA-99F8-D9713643E53E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,14 @@ Global
 		{2D1A8881-CABE-452C-AEAA-9B93E08BC198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D1A8881-CABE-452C-AEAA-9B93E08BC198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D1A8881-CABE-452C-AEAA-9B93E08BC198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4332CE9-588E-463B-B5C3-9A552AB88AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4332CE9-588E-463B-B5C3-9A552AB88AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4332CE9-588E-463B-B5C3-9A552AB88AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4332CE9-588E-463B-B5C3-9A552AB88AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA30E3D-F483-4DDA-99F8-D9713643E53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA30E3D-F483-4DDA-99F8-D9713643E53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA30E3D-F483-4DDA-99F8-D9713643E53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA30E3D-F483-4DDA-99F8-D9713643E53E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
